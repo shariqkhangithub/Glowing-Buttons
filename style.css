@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #030928;
+  }
+  
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .center{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(0, 0, 15);
+    padding: 20px;
+  }  
+
+  h1{
+    color: rgb(13, 195, 250);
+  }
+
+  h3{
+    color: white;
+    font-size: larger;
+  }
+
+  .top{
+    height: 60px;
+    display: flex;
+    margin: 15px;
+  }
+
+  .first{
+    background-color: rgb(13, 195, 250);
+    height: 100%;
+    width: 2px;
+    margin-right: 13px;
+  }
+
+  .second{
+    height: 100%;
+    width: 100%;
+  }
+
+  .btn{
+    padding: 8px;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-weight: bold;
+    background-color: transparent;
+  } 
+
+  .one{
+    color: #9BEC00;
+    border: 1px  solid black;
+    animation: greencolour 1s infinite; 
+  }
+ 
+
+  .one:hover{
+    box-shadow: 0 0 20px 5px  #9BEC00;
+    background-color: #9BEC00;
+    color: white;
+    border-style: none;
+  } 
+
+  .two{
+    color: #FF76CE;
+    border: 1px  solid black;
+    animation: pinkcolour 1s infinite; 
+  }
+
+  .two:hover{
+    box-shadow: 0 0 20px 5px  #FF76CE;
+    background-color: #FF76CE;
+    color: white;
+    border-style: none;
+  } 
+
+  .three{
+    color: #45FFCA;
+    border: 1px  solid black;
+    animation: bluecolour 1s infinite; 
+  }
+
+  .three:hover{
+    box-shadow: 0 0 20px 5px  #45FFCA;
+    background-color: #45FFCA;
+    color: white;
+    border-style: none;
+  } 
+  
+  @keyframes greencolour{
+    0% {
+       border-top-color: #9BEC00;
+      }
+    33.3% { 
+  
+      border-right-color: #9BEC00; 
+    }
+    66.6% {
+      border-bottom-color: #9BEC00;
+       }
+       100%{
+        border-left-color: #9BEC00;
+       }
+  }
+
+  @keyframes pinkcolour {
+    0% {
+       border-top-color: #FF76CE;
+      }
+    33.3% { 
+  
+      border-right-color: #FF76CE; 
+    }
+    66.6% {
+      border-bottom-color: #FF76CE;
+       }
+       100%{
+        border-left-color: #FF76CE;
+       }
+  }
+
+  @keyframes bluecolour {
+    0% {
+       border-top-color: #45FFCA;
+      }
+    33.3% { 
+  
+      border-right-color: #45FFCA; 
+    }
+    66.6% {
+      border-bottom-color: #45FFCA;
+       }
+       100%{
+        border-left-color: #45FFCA;
+       }
+  }
+
+  
+
+
+
